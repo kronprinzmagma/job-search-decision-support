@@ -1,0 +1,24 @@
+{
+ "_doc": "Beleglage der Demo-Persona Alex Müller je Kategorie aus spec/ki_kodierschema.json, abgeleitet aus persona/PROFILE.md (erfunden). Getrennt vom Kodierschema, damit die Kodierung blind bleibt. Status: belegt / teilweise / luecke. 'massnahme' ist ein Vorschlag; entscheiden tut Alex. 'vergleich' enthält Alex' Werte für Block B (spec/MARKT.md), nach denselben Regeln gebildet wie die der Vergleichsgruppe.",
+ "quelle": "persona/PROFILE.md",
+ "kategorien": {
+  "K01": {"status": "belegt", "beleg": "KI-Pilotprojekte von der Anbieter-Evaluation bis zum Betrieb", "massnahme": ""},
+  "K02": {"status": "teilweise", "beleg": "Pilotprojekte bis zum Betrieb; kein skaliertes KI-Produkt im Dauerbetrieb belegt", "massnahme": "Betriebsphase eines Piloten mit Kennzahlen (Nutzung, Kosten, Verbesserungen) als Beleg aufbereiten"},
+  "K03": {"status": "teilweise", "beleg": "Anbieter-Evaluation belegt; systematische Qualitätsmessung von KI-Ergebnissen nicht", "massnahme": "Kleines Evaluationsset mit Testfällen und Metriken für ein eigenes KI-Projekt bauen und dokumentieren"},
+  "K04": {"status": "teilweise", "beleg": "Datenschutz im Produktalltag belegt; Daten-Governance für KI nicht", "massnahme": "Datenschutz-Erfahrung als KI-Governance-Beleg formulieren (Richtlinie, Prüfprozess, Ergebnis)"},
+  "K05": {"status": "luecke", "beleg": "in PROFILE.md nicht belegt", "massnahme": "Ein Agenten- oder Prompt-Projekt mit messbarem Ergebnis umsetzen und öffentlich dokumentieren"},
+  "K06": {"status": "teilweise", "beleg": "Führung interdisziplinärer Teams; Befähigung zu KI nicht ausdrücklich belegt", "massnahme": "Einführung im Pilotprojekt (wer wurde befähigt, mit welchem Ergebnis) als Beleg ergänzen"},
+  "K07": {"status": "teilweise", "beleg": "regulierte Umfelder (Gesundheit, Versicherung); KI-Regulierung nicht belegt", "massnahme": "Weiterbildung zur KI-Regulierung mit Anwendung auf einen eigenen Fall"},
+  "K08": {"status": "luecke", "beleg": "kein Hochschulabschluss in Informatik; keine eigene Technikarbeit belegt", "massnahme": "Nicht schliessen, sondern ehrlich positionieren: Produktrolle mit technischem Verständnis; Rollen mit Muss-Handarbeit meiden"},
+  "K09": {"status": "belegt", "beleg": "Produktrollen mit KI-Anteil, KI-Pilotprojekte", "massnahme": ""}
+ },
+ "vergleich": {
+  "jahre_rollentyp": 6,
+  "jahre_herleitung": "6 Jahre Produktverantwortung mit Roadmap-Hoheit (PROFILE.md, Eckdaten), nicht die 14 Jahre digitale Produkte insgesamt",
+  "vorstufe": "Senior PO/PM",
+  "branchen": ["B2B-Software", "Versicherung", "Krankenversicherung"],
+  "abschluss": "nicht Informatik/Technik",
+  "ki_belege": true,
+  "wechsel": "extern"
+ }
+}

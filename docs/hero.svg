@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="t d">
+  <title id="t">job-search-decision-support</title>
+  <desc id="d">Synthetic demo over eight weeks: 2,276 postings sighted, 1,622 dropped by rule with a reason, 295 read in full and rejected, 62 presented with a recommendation, 36 Go decisions with company and people research, 32 applications sent with a letter built on that research, 12 interviews prepared and debriefed. Next to it the cockpit the human sees first and the monthly market observation: AI skills demanded against the persona's evidence, and who got the roles, pseudonymised.</desc>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .h { font-size: 28px; font-weight: 700; }
+    .s { font-size: 15px; fill: #59636e; }
+    .n { font-size: 21px; font-weight: 700; }
+    .l { font-size: 14px; fill: #1f2328; }
+    .m { font-size: 12px; fill: #59636e; }
+    .ct { font-size: 13px; font-weight: 700; fill: #2f4f6f; }
+    .ce { font-size: 13px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; fill: #59636e; }
+    .chip { font-size: 13px; font-weight: 600; fill: #2f4f6f; }
+    .gap { font-size: 12px; font-weight: 700; fill: #9a5b13; }
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="589" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+
+  <text x="40" y="58" class="h">Hundreds of postings. A handful worth it. Every decision human.</text>
+  <text x="40" y="86" class="s">From the market scan to the interview debrief · synthetic demo: 8 weeks, 115 sweeps, persona Alex Müller</text>
+
+  <!-- Trichter: Balken massstaeblich, Mindestbreite 2 px -->
+  <g transform="translate(40,118)">
+    <text x="0" y="0" class="m">WHAT HAPPENED TO EVERY POSTING · bar length to scale</text>
+    <g transform="translate(0,16)">
+      <rect x="84" y="0" width="230" height="40" rx="6" fill="#dbe4ec"/>
+      <text x="0" y="27" class="n">2,276</text>
+      <text x="330" y="17" class="l">postings sighted</text>
+      <text x="330" y="34" class="m">28 queries, 3 sweeps a day, delta only</text>
+    </g>
+    <g transform="translate(0,64)">
+      <rect x="84" y="0" width="164" height="40" rx="6" fill="#dbe4ec"/>
+      <text x="0" y="27" class="n">1,622</text>
+      <text x="330" y="17" class="l">dropped on the list by rule</text>
+      <text x="330" y="34" class="m">each one logged with its reason</text>
+    </g>
+    <g transform="translate(0,112)">
+      <rect x="84" y="0" width="30" height="40" rx="6" fill="#c3d2df"/>
+      <text x="0" y="27" class="n">295</text>
+      <text x="330" y="17" class="l">read in full and rejected</text>
+      <text x="330" y="34" class="m">with the clause that decided it</text>
+    </g>
+    <g transform="translate(0,160)">
+      <rect x="84" y="0" width="6" height="40" rx="3" fill="#2f4f6f"/>
+      <text x="0" y="27" class="n">62</text>
+      <text x="330" y="17" class="l">presented with a recommendation</text>
+      <text x="330" y="34" class="m">open until the human answers</text>
+    </g>
+    <g transform="translate(0,208)">
+      <rect x="84" y="0" width="4" height="40" rx="2" fill="#b7791f"/>
+      <text x="0" y="27" class="n">36</text>
+      <text x="330" y="17" class="l">Go: company and people researched</text>
+      <text x="330" y="34" class="m">facts, assumptions and open questions kept apart</text>
+    </g>
+    <g transform="translate(0,256)">
+      <rect x="84" y="0" width="3" height="40" rx="1.5" fill="#b7791f"/>
+      <text x="0" y="27" class="n">32</text>
+      <text x="330" y="17" class="l">sent, with a letter built on that research</text>
+      <text x="330" y="34" class="m">pre-send gate checks print, format and sources</text>
+    </g>
+    <g transform="translate(0,304)">
+      <rect x="84" y="0" width="2" height="40" rx="1" fill="#b7791f"/>
+      <text x="0" y="27" class="n">12</text>
+      <text x="330" y="17" class="l">interviews: prepared, then debriefed</text>
+      <text x="330" y="34" class="m">likely questions with evidence, case prep, answer drill</text>
+    </g>
+  </g>
+
+  <!-- Cockpit -->
+  <g transform="translate(700,118)">
+    <rect x="0" y="0" width="460" height="214" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="460" height="32" rx="10" fill="#eaeef2"/>
+    <rect x="0" y="22" width="460" height="10" fill="#eaeef2"/>
+    <circle cx="18" cy="16" r="5" fill="#d0d7de"/><circle cx="34" cy="16" r="5" fill="#d0d7de"/><circle cx="50" cy="16" r="5" fill="#d0d7de"/>
+    <text x="70" y="21" class="mono">views/STATUS.md · waiting for the human</text>
+    <text x="20" y="58" class="ct">Presented, your decision · 2 open</text>
+    <text x="20" y="80" class="ce">• Kalvit Software AG — Senior Product Owner Daten</text>
+    <text x="440" y="80" class="m" text-anchor="end">today</text>
+    <text x="20" y="100" class="ce">• Kalvit Software AG — Lead Product Owner Plattform</text>
+    <text x="440" y="100" class="m" text-anchor="end">1 day</text>
+    <text x="20" y="128" class="ct">Returned by the weekly second review · 1</text>
+    <text x="20" y="150" class="ct">Go given, not sent yet · 3</text>
+    <text x="20" y="172" class="ct">Interviews without a debrief · 3</text>
+    <text x="20" y="198" class="m">A case leaves this list only when the record says so.</text>
+  </g>
+
+  <!-- Marktbeobachtung -->
+  <g transform="translate(700,346)">
+    <rect x="0" y="0" width="460" height="148" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="460" height="32" rx="10" fill="#eaeef2"/>
+    <rect x="0" y="22" width="460" height="10" fill="#eaeef2"/>
+    <text x="20" y="21" class="mono">notes/…_marktbeobachtung.md · monthly</text>
+    <text x="20" y="56" class="ct">AI skills demanded vs. own evidence</text>
+    <text x="20" y="78" class="ce">Evaluation and quality measurement · 15 %</text>
+    <text x="440" y="78" class="gap" text-anchor="end">sharpen evidence</text>
+    <text x="20" y="98" class="ce">Prompt and agent practice · 11 %</text>
+    <text x="440" y="98" class="gap" text-anchor="end">gap</text>
+    <text x="20" y="124" class="ct">Who got the roles (pseudonymised, n = 11)</text>
+    <text x="20" y="142" class="m">median 8 years in the role type (Alex 6) · 6 of 11 from the same industry</text>
+  </g>
+
+  <!-- Lebenszyklus -->
+  <g transform="translate(40,516)">
+    <rect x="0" y="0" width="170" height="44" rx="22" fill="#eef3f7" stroke="#c3d2df"/>
+    <text x="85" y="28" class="chip" text-anchor="middle">Find</text>
+    <rect x="188" y="0" width="170" height="44" rx="22" fill="#eef3f7" stroke="#c3d2df"/>
+    <text x="273" y="28" class="chip" text-anchor="middle">Assess</text>
+    <rect x="376" y="0" width="170" height="44" rx="22" fill="#eef3f7" stroke="#c3d2df"/>
+    <text x="461" y="28" class="chip" text-anchor="middle">Research</text>
+    <rect x="564" y="0" width="170" height="44" rx="22" fill="#eef3f7" stroke="#c3d2df"/>
+    <text x="649" y="28" class="chip" text-anchor="middle">Apply</text>
+    <rect x="752" y="0" width="170" height="44" rx="22" fill="#eef3f7" stroke="#c3d2df"/>
+    <text x="837" y="28" class="chip" text-anchor="middle">Interview</text>
+    <rect x="940" y="0" width="180" height="44" rx="22" fill="#eef3f7" stroke="#c3d2df"/>
+    <text x="1030" y="28" class="chip" text-anchor="middle">Learn</text>
+  </g>
+</svg>

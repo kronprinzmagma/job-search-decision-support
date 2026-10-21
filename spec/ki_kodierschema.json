@@ -1,0 +1,97 @@
+{
+ "_doc": "Kodierschema für verlangte KI-Fähigkeiten in Stellenanzeigen (spec/MARKT.md, Block A). Eingefroren: Änderungen nur als Nachtrag in 'nachtraege', nie rückwirkend. Kodiert wird blind (nur Anzeigentext, nicht persona/PROFILE.md), Mehrfachkodierung erlaubt, gezählt wird je Anzeige das Vorkommen. 'stichworte' sind die Fragmente der deterministischen Demo-Variante (scripts/marktcheck.py), verglichen auf kleingeschriebenem Text mit ä→ae, ö→oe, ü→ue; im Betrieb kodiert das Modell nach 'definition', 'beispiele_im_anzeigentext' und 'gegenbeispiele'.",
+ "version": "1.0",
+ "regeln": [
+  "Nur Wortlaut: kodiert wird, was in Aufgaben oder Anforderungen steht. Firmenbeschreibung, Benefits und Bewerbungshinweise werden nicht kodiert.",
+  "KI-Bezug im Satz selbst: Die Kategorien K01 bis K09 setzen voraus, dass der Satz KI, AI, LLM, GenAI, Machine Learning, Agenten, Prompts oder ein KI-Werkzeug nennt.",
+  "Verantwortung für ein Ergebnis löst aus (Tätigkeit, Begleitaufgabe, Zielzustand der Rolle); eine blosse Eigenschaft der gesuchten Person nicht.",
+  "Wissen ist nicht Handarbeit: «Verständnis für ML-Verfahren» ist K09, nicht K08. Reine Umfeldnennung («unser Stack umfasst …») bekommt keinen Code. Im Zweifel die schwächere Lesart und 'unsicher' markieren.",
+  "Wunsch statt Muss, wenn der Satz «von Vorteil», «idealerweise», «wünschenswert», «nice to have», «ideally», «a plus» oder «preferred» enthält.",
+  "Kein Code passt, obwohl KI verlangt wird: Code «NEU» mit Vorschlag «Thema – typische Tätigkeit», nicht in eine bestehende Kategorie pressen."
+ ],
+ "ki_signal": ["ki", "ai", "genai", "llm", "llms", "ml", "künstliche intelligenz", "machine learning", "machine-learning", "sprachmodell", "agenten", "agentic", "prompt", "copilot", "chatbot", "mlops", "llmops"],
+ "wunsch_signal": ["von vorteil", "idealerweise", "wünschenswert", "nice to have", "ideally", "a plus", "preferred", "bonus"],
+ "kategorien": [
+  {
+   "id": "K01",
+   "name": "KI-Anwendungsfälle priorisieren",
+   "definition": "Die Rolle findet, bewertet und priorisiert, wo KI im Produkt oder im Unternehmen Nutzen stiftet: Use-Case-Portfolio, Business Case, Wirkungsnachweis, Auswahl von KI-Anbietern und Modellen.",
+   "stichworte": ["use case", "use-case", "anwendungsfall", "anwendungsfaelle", "nutzen stiften", "nutzen stiftet", "business case", "priorisier", "potenzial", "anbieter", "wirkung"],
+   "beispiele_im_anzeigentext": ["identifizierst und priorisierst KI-Use-Cases", "bewertest, wo KI im Produkt echten Nutzen stiftet", "erstellst Business Cases für KI-Vorhaben", "evaluierst KI-Anbieter und Modelle"],
+   "gegenbeispiele": ["Du priorisierst das Backlog gemeinsam mit den Stakeholdern.", "Du erstellst Business Cases für neue Produktfunktionen."]
+  },
+  {
+   "id": "K02",
+   "name": "LLM-Produkte betreiben",
+   "definition": "Die Rolle bringt KI-Funktionen vom Pilot in den produktiven Betrieb, skaliert sie, überwacht sie im Betrieb, verbessert sie aus Nutzung und Feedback und steuert die Nutzungskosten.",
+   "stichworte": ["in den betrieb", "im betrieb", "produktiven betrieb", "produktiv", "betreibst", "betreiben", "skalier", "monitor", "ueberwach", "kosten"],
+   "beispiele_im_anzeigentext": ["bringst KI-Funktionen in den Betrieb", "betreibst unsere LLM-basierten Funktionen", "überwachst Qualität und Kosten der KI-Funktionen im Betrieb", "skalierst die KI-Lösung"],
+   "gegenbeispiele": ["Du betreust den Betrieb unseres Kundenportals.", "Erste Erfahrung mit KI-Anwendungen im Produktalltag."]
+  },
+  {
+   "id": "K03",
+   "name": "Evaluation und Qualitätsmessung",
+   "definition": "Die Rolle misst die Qualität von KI-Ergebnissen: Testfälle, Metriken, Abnahmekriterien und -schwellen, Fehler- und Halluzinationsanalyse, Vergleich von Modellvarianten.",
+   "stichworte": ["evaluation", "evals", "qualitaet der ki", "qualitaet von ki", "antwortqualitaet", "qualitaetsmess", "testfaelle", "metriken", "abnahmekriterien", "abnahmeschwellen", "halluzin", "genauigkeit"],
+   "beispiele_im_anzeigentext": ["definierst Testfälle und Metriken für unsere KI-Funktionen", "legst Abnahmekriterien für LLM-Antworten fest", "verantwortest die Evaluation der KI-Ergebnisse", "analysierst Halluzinationen des LLM"],
+   "gegenbeispiele": ["Du definierst Produktkennzahlen und steuerst danach.", "Du evaluierst KI-Anbieter und gibst eine Empfehlung ab."]
+  },
+  {
+   "id": "K04",
+   "name": "Daten- und Governance-Kompetenz",
+   "definition": "Die Rolle stellt die Datengrundlage für KI-Vorhaben sicher (Bedarf, Qualität, Zugang, Zugriffsrechte) und baut KI-Governance auf oder wendet sie an: Richtlinien, Standards, Prüfprozesse.",
+   "stichworte": ["datenqualitaet", "datengrundlage", "datenbasis", "datenzugang", "trainingsdaten", "datenstrategie", "datenmanagement", "zugriffsrechte", "governance", "richtlinien"],
+   "beispiele_im_anzeigentext": ["stellst Datenqualität und Datenzugang für KI-Vorhaben sicher", "baust die KI-Governance auf", "klärst, welche Datengrundlage die KI-Funktionen brauchen", "definierst Richtlinien für den KI-Einsatz"],
+   "gegenbeispiele": ["Du arbeitest mit SQL und Dashboards.", "Du hältst dich an unsere internen Richtlinien."]
+  },
+  {
+   "id": "K05",
+   "name": "Prompt- und Agenten-Praxis",
+   "definition": "Die Rolle gestaltet Prompts und Instruktionen, konzipiert KI-Agenten und mehrstufige KI-Automatisierungen mit Werkzeuganbindung, Retrieval über Unternehmenswissen oder baut Assistenten auf Low-Code-/No-Code-Plattformen selbst.",
+   "stichworte": ["prompt", "agenten", "agentic", "ai agent", "ki-agent", "automatisier", "retrieval", "low-code", "no-code", "copilot"],
+   "beispiele_im_anzeigentext": ["gestaltest und optimierst Prompts", "konzipierst KI-Agenten, die mehrstufige Abläufe automatisieren", "baust Retrieval für unser Sprachmodell über das Unternehmenswissen auf", "setzt Low-Code-Werkzeuge für KI-Assistenten ein"],
+   "gegenbeispiele": ["Du automatisierst Testabläufe in der CI-Pipeline.", "Du arbeitest eng mit unserer Agentur zusammen."]
+  },
+  {
+   "id": "K06",
+   "name": "Change und Enablement",
+   "definition": "Die Rolle führt KI-Werkzeuge im Unternehmen ein, befähigt Mitarbeitende und Fachbereiche (Schulungen, Lernformate, Champion-Netzwerk) und misst Nutzung und Adoption.",
+   "stichworte": ["einfuehr", "befaehig", "schulung", "enablement", "change", "adoption", "community", "champion", "lernformat"],
+   "beispiele_im_anzeigentext": ["verantwortest die Einführung von KI-Werkzeugen in den Fachbereichen","befähigst Mitarbeitende im Umgang mit KI", "konzipierst Schulungen zu generativer KI", "baust ein Netzwerk von KI-Champions auf"],
+   "gegenbeispiele": ["Du führst ein crossfunktionales Team.", "Du arbeitest eng mit Fachbereichen zusammen."]
+  },
+  {
+   "id": "K07",
+   "name": "Regulierung und Risiko",
+   "definition": "Die Rolle wendet KI-Regulierung an (z. B. EU AI Act, Risikoklassen), sichert Datenschutz und Informationssicherheit bei KI und achtet auf verantwortungsvolle KI: Fairness, Transparenz, Bias, Erklärbarkeit; auch regulierte Domänen mit KI-Bezug.",
+   "stichworte": ["ai act", "regulier", "risikoklass", "risiko", "datenschutz", "compliance", "informationssicherheit", "fairness", "bias", "transparenz", "verantwortungsvoll", "ethik"],
+   "beispiele_im_anzeigentext": ["stellst die Einhaltung des EU AI Act sicher", "klärst Datenschutz und Informationssicherheit der KI-Funktionen", "achtest auf verantwortungsvolle KI: Fairness, Transparenz, Bias", "ordnest KI-Anwendungen in Risikoklassen ein"],
+   "gegenbeispiele": ["Erfahrung in einem regulierten Umfeld von Vorteil.", "Du sorgst für Datenschutz im Kundenportal."]
+  },
+  {
+   "id": "K08",
+   "name": "Technische Tiefe und Hands-on",
+   "definition": "Die Rolle arbeitet selbst technisch an KI: Modelle entwickeln oder trainieren, Fine-Tuning, programmieren (z. B. Python), Deployment und MLOps/LLMOps. Nicht: Verständnis für Technik (K09) oder Umfeldnennung (kein Code).",
+   "stichworte": ["python", "programmier", "modelle entwickel", "entwickelst ml", "entwickelst ki-modelle", "trainier", "fine-tuning", "finetuning", "mlops", "llmops", "deployment", "pytorch", "tensorflow", "hands-on"],
+   "beispiele_im_anzeigentext": ["entwickelst und trainierst ML-Modelle in Python", "verantwortest Deployment und MLOps", "setzt Fine-Tuning von Sprachmodellen selbst um", "arbeitest hands-on an KI-Prototypen"],
+   "gegenbeispiele": ["Verständnis für KI-Technologien und ihre Grenzen.", "Du arbeitest eng mit unserem Data-Science-Team zusammen."]
+  },
+  {
+   "id": "K09",
+   "name": "Allgemeines KI-Verständnis",
+   "definition": "KI-Affinität, Grundverständnis oder erste Erfahrung mit KI-Anwendungen, ohne beschriebene Tätigkeit; Trends verfolgen. Das schwächste Signal: verlangt wird Kenntnis, nicht Verantwortung für ein Ergebnis.",
+   "stichworte": ["erfahrung mit ki", "erfahrung mit ai", "erfahrung mit generativer", "erste erfahrung", "verstaendnis", "affin", "begeister", "interesse an", "trends", "kenntnisse", "know-how"],
+   "beispiele_im_anzeigentext": ["Erste Erfahrung mit KI-Anwendungen", "Verständnis für KI-Technologien", "KI-Affinität", "verfolgst Trends in generativer KI"],
+   "gegenbeispiele": ["Erfahrung mit agilen Methoden (Scrum, Kanban, SAFe).", "Verständnis für technische Zusammenhänge."]
+  },
+  {
+   "id": "K00",
+   "name": "Keine KI-Anforderung",
+   "definition": "Weder Aufgaben noch Anforderungen nennen KI. Wird vergeben, wenn keine der Kategorien K01 bis K09 zutrifft, auch wenn KI im Firmenteil vorkommt.",
+   "stichworte": [],
+   "beispiele_im_anzeigentext": ["Anzeige ohne KI in Aufgaben und Profil", "KI nur in der Firmenbeschreibung: «Wir setzen seit Jahren auf KI.»"],
+   "gegenbeispiele": ["Erste Erfahrung mit KI-Anwendungen von Vorteil. (das ist K09 als Wunsch, nicht K00)"]
+  }
+ ],
+ "nachtraege": []
+}

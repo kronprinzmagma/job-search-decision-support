@@ -1,0 +1,43 @@
+{
+ "_doc": "Bausteine für Demo-Anzeigen (scripts/init_demo.py): erfundene Anzeigensätze mit verlangter KI-Fähigkeit, je Kategorie aus spec/ki_kodierschema.json. 'abschnitt' sagt, wohin der Satz gehört: 'aufgaben' (Deine Aufgaben), 'profil' (Dein Profil) oder 'firma' (Firmenteil, wird nicht kodiert: ergibt K00). Jeder Satz wird von scripts/marktcheck.py seiner Kategorie zugeordnet (tests/test_markt.py prüft das).",
+ "bausteine": [
+  {"kategorie_id": "K01", "abschnitt": "aufgaben", "satz": "Du identifizierst und priorisierst KI-Use-Cases entlang der Customer Journey."},
+  {"kategorie_id": "K01", "abschnitt": "aufgaben", "satz": "Du bewertest mit den Fachbereichen, wo KI im Produkt echten Nutzen stiftet, und erstellst dafür Business Cases."},
+  {"kategorie_id": "K01", "abschnitt": "profil", "satz": "Erfahrung darin, KI-Anbieter und Modelle zu vergleichen und eine fundierte Empfehlung abzugeben."},
+
+  {"kategorie_id": "K02", "abschnitt": "aufgaben", "satz": "Du bringst unsere KI-Funktionen vom Pilot in den produktiven Betrieb."},
+  {"kategorie_id": "K02", "abschnitt": "aufgaben", "satz": "Du betreibst die LLM-basierten Funktionen unseres Portals und behältst Nutzung und Kosten im Blick."},
+  {"kategorie_id": "K02", "abschnitt": "profil", "satz": "Erfahrung damit, eine KI-Lösung über mehrere Kundengruppen zu skalieren."},
+
+  {"kategorie_id": "K03", "abschnitt": "aufgaben", "satz": "Du definierst Testfälle und Metriken, an denen wir die Antworten unseres KI-Assistenten messen."},
+  {"kategorie_id": "K03", "abschnitt": "aufgaben", "satz": "Du legst Abnahmekriterien für LLM-Antworten fest und analysierst Halluzinationen systematisch."},
+  {"kategorie_id": "K03", "abschnitt": "profil", "satz": "Erfahrung mit der Evaluation von KI-Ergebnissen von Vorteil."},
+
+  {"kategorie_id": "K04", "abschnitt": "aufgaben", "satz": "Du stellst gemeinsam mit dem Datenteam Datenqualität und Datenzugang für unsere KI-Vorhaben sicher."},
+  {"kategorie_id": "K04", "abschnitt": "aufgaben", "satz": "Du baust die KI-Governance mit Richtlinien und Prüfprozessen auf."},
+  {"kategorie_id": "K04", "abschnitt": "profil", "satz": "Erfahrung damit, die Datengrundlage für KI-Anwendungen zu klären."},
+
+  {"kategorie_id": "K05", "abschnitt": "aufgaben", "satz": "Du gestaltest und optimierst Prompts für unseren KI-Assistenten."},
+  {"kategorie_id": "K05", "abschnitt": "aufgaben", "satz": "Du konzipierst KI-Agenten, die mehrstufige Abläufe im Kundenservice automatisieren."},
+  {"kategorie_id": "K05", "abschnitt": "profil", "satz": "Praxis mit Retrieval-Ansätzen für Sprachmodelle (RAG) idealerweise vorhanden."},
+
+  {"kategorie_id": "K06", "abschnitt": "aufgaben", "satz": "Du verantwortest die Einführung von KI-Werkzeugen in den Fachbereichen."},
+  {"kategorie_id": "K06", "abschnitt": "aufgaben", "satz": "Du befähigst Mitarbeitende im Umgang mit KI und konzipierst dafür Schulungen."},
+  {"kategorie_id": "K06", "abschnitt": "profil", "satz": "Erfahrung im Change Management bei der Einführung neuer KI-Lösungen."},
+
+  {"kategorie_id": "K07", "abschnitt": "aufgaben", "satz": "Du stellst sicher, dass unsere KI-Anwendungen die Anforderungen des EU AI Act erfüllen."},
+  {"kategorie_id": "K07", "abschnitt": "aufgaben", "satz": "Du klärst mit Datenschutz und Informationssicherheit, wie KI-Funktionen sicher betrieben werden."},
+  {"kategorie_id": "K07", "abschnitt": "profil", "satz": "Sensibilität für verantwortungsvolle KI: Fairness, Transparenz und Bias."},
+
+  {"kategorie_id": "K08", "abschnitt": "aufgaben", "satz": "Du entwickelst und trainierst ML-Modelle in Python gemeinsam mit dem Data-Science-Team."},
+  {"kategorie_id": "K08", "abschnitt": "profil", "satz": "Hands-on-Erfahrung mit Fine-Tuning von Sprachmodellen."},
+  {"kategorie_id": "K08", "abschnitt": "profil", "satz": "Erfahrung mit MLOps und dem Deployment von KI-Modellen."},
+
+  {"kategorie_id": "K09", "abschnitt": "profil", "satz": "Ausgeprägte KI-Affinität und Freude an neuen Technologien."},
+  {"kategorie_id": "K09", "abschnitt": "profil", "satz": "Gutes Verständnis für die Möglichkeiten und Grenzen generativer KI."},
+  {"kategorie_id": "K09", "abschnitt": "profil", "satz": "Du verfolgst die Trends rund um KI und bringst neue Ideen ein."},
+
+  {"kategorie_id": "K00", "abschnitt": "firma", "satz": "Wir setzen KI bereits in mehreren Produkten ein und bauen diesen Bereich weiter aus."},
+  {"kategorie_id": "K00", "abschnitt": "firma", "satz": "Unser Data-&-AI-Team arbeitet eng mit allen Produktbereichen zusammen."}
+ ]
+}

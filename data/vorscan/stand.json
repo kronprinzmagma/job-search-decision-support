@@ -1,0 +1,2308 @@
+{
+ "zeit": "2025-04-26T07:46:03",
+ "quelle": "Fixture-Kanal (Demo, kein echtes Portal)",
+ "abfragen": {
+  "pt-a-product-owner": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 30,
+   "eintraege": [
+    {
+     "id": "pt-a-product-owner-000",
+     "firma": "Hovald Bau AG",
+     "rolle": "Data Engineer Kundenerlebnis",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/000"
+    },
+    {
+     "id": "pt-a-product-owner-001",
+     "firma": "Fendrix Analytics AG",
+     "rolle": "Product Owner Mobile App Prozesse",
+     "ort": "Baden",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/001"
+    },
+    {
+     "id": "pt-a-product-owner-002",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Product Owner Kundenportal",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/002"
+    },
+    {
+     "id": "pt-a-product-owner-003",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/003"
+    },
+    {
+     "id": "pt-a-product-owner-004",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Scrum Master (80–100 %)",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/004"
+    },
+    {
+     "id": "pt-a-product-owner-005",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Scrum Master",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/005"
+    },
+    {
+     "id": "pt-a-product-owner-006",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Software Engineer Backend Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/006"
+    },
+    {
+     "id": "pt-a-product-owner-007",
+     "firma": "Amberlin Versicherung AG",
+     "rolle": "Junior Product Owner",
+     "ort": "Lausanne",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/007"
+    },
+    {
+     "id": "pt-a-product-owner-008",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/008"
+    },
+    {
+     "id": "pt-a-product-owner-009",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Software Engineer Backend (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/009"
+    },
+    {
+     "id": "pt-a-product-owner-010",
+     "firma": "Hovald Bau AG",
+     "rolle": "Praktikum Produktmanagement Kundenerlebnis",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/010"
+    },
+    {
+     "id": "pt-a-product-owner-011",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Senior Product Manager Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-owner/011"
+    },
+    {
+     "id": "pt-a-product-owner-012",
+     "firma": "Mirvel Medien AG",
+     "rolle": "Digital Product Lead (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/012"
+    },
+    {
+     "id": "pt-a-product-owner-013",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Product Owner Mobile App",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/013"
+    },
+    {
+     "id": "pt-a-product-owner-014",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Projektleiter Digitalisierung Kundenerlebnis",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/014"
+    },
+    {
+     "id": "pt-a-product-owner-015",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Solution Architect Kundenerlebnis",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/015"
+    },
+    {
+     "id": "pt-a-product-owner-016",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Digital Product Lead Prozesse",
+     "ort": "Zug",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/016"
+    },
+    {
+     "id": "pt-a-product-owner-017",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Data Engineer B2B",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/017"
+    },
+    {
+     "id": "pt-a-product-owner-018",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Senior Product Owner",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/018"
+    },
+    {
+     "id": "pt-a-product-owner-019",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Product Owner Self-Service Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/019"
+    },
+    {
+     "id": "pt-a-product-owner-020",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Business Analyst",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/020"
+    },
+    {
+     "id": "pt-a-product-owner-021",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Requirements Engineer Prozesse",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-owner/021"
+    },
+    {
+     "id": "pt-a-product-owner-022",
+     "firma": "Spielora Gaming AG",
+     "rolle": "UX Designer Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/022"
+    },
+    {
+     "id": "pt-a-product-owner-023",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Data Engineer Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-owner/023"
+    },
+    {
+     "id": "pt-a-product-owner-024",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Praktikum Produktmanagement (80–100 %)",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/024"
+    },
+    {
+     "id": "pt-a-product-owner-025",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/025"
+    },
+    {
+     "id": "pt-a-product-owner-026",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Software Engineer Backend B2B",
+     "ort": "Luzern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-owner/026"
+    },
+    {
+     "id": "pt-a-product-owner-027",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "UX Designer Daten",
+     "ort": "Bern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-owner/027"
+    },
+    {
+     "id": "pt-a-product-owner-028",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Product Owner Kundenportal",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-owner/028"
+    },
+    {
+     "id": "pt-a-product-owner-neu0",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Product Owner Schadenportal",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-owner/neu0"
+    }
+   ]
+  },
+  "pt-a-senior-product-owner": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 1,
+   "seiten": 1,
+   "treffer": 18,
+   "eintraege": [
+    {
+     "id": "pt-a-senior-product-owner-000",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Data Engineer",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/000"
+    },
+    {
+     "id": "pt-a-senior-product-owner-001",
+     "firma": "Hovald Bau AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/001"
+    },
+    {
+     "id": "pt-a-senior-product-owner-002",
+     "firma": "Hovald Bau AG",
+     "rolle": "Product Manager Hardware",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/002"
+    },
+    {
+     "id": "pt-a-senior-product-owner-003",
+     "firma": "Hovald Bau AG",
+     "rolle": "Solution Architect",
+     "ort": "Aarau",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/003"
+    },
+    {
+     "id": "pt-a-senior-product-owner-004",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Business Analyst Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/004"
+    },
+    {
+     "id": "pt-a-senior-product-owner-005",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Senior Product Owner",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/005"
+    },
+    {
+     "id": "pt-a-senior-product-owner-006",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Luzern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/006"
+    },
+    {
+     "id": "pt-a-senior-product-owner-007",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Solution Architect",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/007"
+    },
+    {
+     "id": "pt-a-senior-product-owner-008",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Scrum Master (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/008"
+    },
+    {
+     "id": "pt-a-senior-product-owner-009",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Senior Product Manager",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/009"
+    },
+    {
+     "id": "pt-a-senior-product-owner-010",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Lead Product Owner Plattform Daten",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/010"
+    },
+    {
+     "id": "pt-a-senior-product-owner-011",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Solution Architect Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/011"
+    },
+    {
+     "id": "pt-a-senior-product-owner-012",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "UX Designer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/012"
+    },
+    {
+     "id": "pt-a-senior-product-owner-013",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Data Engineer Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/013"
+    },
+    {
+     "id": "pt-a-senior-product-owner-014",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Software Engineer Backend Prozesse",
+     "ort": "Aarau",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/014"
+    },
+    {
+     "id": "pt-a-senior-product-owner-015",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Product Manager Hardware Kundenerlebnis",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/015"
+    },
+    {
+     "id": "pt-a-senior-product-owner-016",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Business Analyst",
+     "ort": "Kloten",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/016"
+    },
+    {
+     "id": "pt-a-senior-product-owner-017",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Product Manager Hardware (80–100 %)",
+     "ort": "Basel",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-senior-product-owner/017"
+    }
+   ]
+  },
+  "pt-a-product-manager": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 23,
+   "eintraege": [
+    {
+     "id": "pt-a-product-manager-000",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Solution Architect B2B",
+     "ort": "Luzern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-manager/000"
+    },
+    {
+     "id": "pt-a-product-manager-001",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Product Manager Data Platform Plattform-Services",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/001"
+    },
+    {
+     "id": "pt-a-product-manager-002",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "UX Designer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/002"
+    },
+    {
+     "id": "pt-a-product-manager-003",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/003"
+    },
+    {
+     "id": "pt-a-product-manager-004",
+     "firma": "Kantonale Verwaltung Altmark",
+     "rolle": "Solution Architect Plattform-Services",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-manager/004"
+    },
+    {
+     "id": "pt-a-product-manager-005",
+     "firma": "Kalvit Software AG",
+     "rolle": "Senior Product Owner",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-manager/005"
+    },
+    {
+     "id": "pt-a-product-manager-006",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Solution Architect",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/006"
+    },
+    {
+     "id": "pt-a-product-manager-007",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/007"
+    },
+    {
+     "id": "pt-a-product-manager-008",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Product Owner Mobile App Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/008"
+    },
+    {
+     "id": "pt-a-product-manager-009",
+     "firma": "Fendrix Analytics AG",
+     "rolle": "UX Designer Kundenerlebnis",
+     "ort": "Baden",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/009"
+    },
+    {
+     "id": "pt-a-product-manager-010",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Product Owner Self-Service",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-manager/010"
+    },
+    {
+     "id": "pt-a-product-manager-011",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Solution Architect",
+     "ort": "Zug",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-product-manager/011"
+    },
+    {
+     "id": "pt-a-product-manager-012",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Projektleiter Digitalisierung Digital Channels",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/012"
+    },
+    {
+     "id": "pt-a-product-manager-013",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Business Analyst",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/013"
+    },
+    {
+     "id": "pt-a-product-manager-014",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Lead Product Owner Plattform Digital Channels",
+     "ort": "Bern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/014"
+    },
+    {
+     "id": "pt-a-product-manager-015",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/015"
+    },
+    {
+     "id": "pt-a-product-manager-016",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "UX Designer Kundenerlebnis",
+     "ort": "Kloten",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/016"
+    },
+    {
+     "id": "pt-a-product-manager-017",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Digital Product Lead Prozesse",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/017"
+    },
+    {
+     "id": "pt-a-product-manager-018",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Praktikum Produktmanagement (80–100 %)",
+     "ort": "Kloten",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/018"
+    },
+    {
+     "id": "pt-a-product-manager-019",
+     "firma": "Spielora Gaming AG",
+     "rolle": "UX Designer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/019"
+    },
+    {
+     "id": "pt-a-product-manager-020",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Scrum Master",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-product-manager/020"
+    },
+    {
+     "id": "pt-a-product-manager-021",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Basel",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/021"
+    },
+    {
+     "id": "pt-a-product-manager-022",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Data Engineer",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-product-manager/022"
+    }
+   ]
+  },
+  "pt-a-head-of-product": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 29,
+   "eintraege": [
+    {
+     "id": "pt-a-head-of-product-000",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Product Owner Mobile App B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-head-of-product/000"
+    },
+    {
+     "id": "pt-a-head-of-product-001",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/001"
+    },
+    {
+     "id": "pt-a-head-of-product-002",
+     "firma": "Mirvel Medien AG",
+     "rolle": "Scrum Master Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-head-of-product/002"
+    },
+    {
+     "id": "pt-a-head-of-product-003",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Senior Product Owner Kundenerlebnis",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-head-of-product/003"
+    },
+    {
+     "id": "pt-a-head-of-product-004",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Data Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-head-of-product/004"
+    },
+    {
+     "id": "pt-a-head-of-product-005",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Solution Architect Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/005"
+    },
+    {
+     "id": "pt-a-head-of-product-006",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Software Engineer Backend Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/006"
+    },
+    {
+     "id": "pt-a-head-of-product-007",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Product Owner Self-Service Kundenerlebnis",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/007"
+    },
+    {
+     "id": "pt-a-head-of-product-008",
+     "firma": "Kombira Versand AG",
+     "rolle": "Head of Product Prozesse",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-head-of-product/008"
+    },
+    {
+     "id": "pt-a-head-of-product-009",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "UX Designer Daten",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-head-of-product/009"
+    },
+    {
+     "id": "pt-a-head-of-product-010",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Praktikum Produktmanagement",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/010"
+    },
+    {
+     "id": "pt-a-head-of-product-011",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Projektleiter Digitalisierung Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/011"
+    },
+    {
+     "id": "pt-a-head-of-product-012",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Business Analyst",
+     "ort": "Bern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/012"
+    },
+    {
+     "id": "pt-a-head-of-product-013",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Projektleiter Digitalisierung Kundenerlebnis",
+     "ort": "Luzern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-head-of-product/013"
+    },
+    {
+     "id": "pt-a-head-of-product-014",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Junior Product Owner",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/014"
+    },
+    {
+     "id": "pt-a-head-of-product-015",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Requirements Engineer B2B",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/015"
+    },
+    {
+     "id": "pt-a-head-of-product-016",
+     "firma": "Varella Energie AG",
+     "rolle": "Product Owner Self-Service",
+     "ort": "Baden",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/016"
+    },
+    {
+     "id": "pt-a-head-of-product-017",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Solution Architect",
+     "ort": "Kloten",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-head-of-product/017"
+    },
+    {
+     "id": "pt-a-head-of-product-018",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/018"
+    },
+    {
+     "id": "pt-a-head-of-product-019",
+     "firma": "Kalvit Software AG",
+     "rolle": "Projektleiter Digitalisierung Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-head-of-product/019"
+    },
+    {
+     "id": "pt-a-head-of-product-020",
+     "firma": "Pixavo Agentur GmbH",
+     "rolle": "Data Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-head-of-product/020"
+    },
+    {
+     "id": "pt-a-head-of-product-021",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Scrum Master",
+     "ort": "Zug",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-a-head-of-product/021"
+    },
+    {
+     "id": "pt-a-head-of-product-022",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Product Owner Mobile App",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/022"
+    },
+    {
+     "id": "pt-a-head-of-product-023",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Scrum Master",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/023"
+    },
+    {
+     "id": "pt-a-head-of-product-024",
+     "firma": "Varella Energie AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Baden",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/024"
+    },
+    {
+     "id": "pt-a-head-of-product-025",
+     "firma": "Mirvel Medien AG",
+     "rolle": "Data Engineer Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-a-head-of-product/025"
+    },
+    {
+     "id": "pt-a-head-of-product-026",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Product Owner Mobile App Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/026"
+    },
+    {
+     "id": "pt-a-head-of-product-027",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Product Owner Kundenportal Plattform-Services",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/027"
+    },
+    {
+     "id": "pt-a-head-of-product-028",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "UX Designer Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-a-head-of-product/028"
+    }
+   ]
+  },
+  "pt-b-ki-produkt": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 1,
+   "seiten": 1,
+   "treffer": 16,
+   "eintraege": [
+    {
+     "id": "pt-b-ki-produkt-000",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Product Owner Kundenportal",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/000"
+    },
+    {
+     "id": "pt-b-ki-produkt-001",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Junior Product Owner",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/001"
+    },
+    {
+     "id": "pt-b-ki-produkt-002",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/002"
+    },
+    {
+     "id": "pt-b-ki-produkt-003",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "UX Designer",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/003"
+    },
+    {
+     "id": "pt-b-ki-produkt-004",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/004"
+    },
+    {
+     "id": "pt-b-ki-produkt-005",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Software Engineer Backend Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/005"
+    },
+    {
+     "id": "pt-b-ki-produkt-006",
+     "firma": "Pixavo Agentur GmbH",
+     "rolle": "Product Manager Data Platform Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/006"
+    },
+    {
+     "id": "pt-b-ki-produkt-007",
+     "firma": "Hovald Bau AG",
+     "rolle": "Product Manager Data Platform",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/007"
+    },
+    {
+     "id": "pt-b-ki-produkt-008",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Scrum Master Plattform-Services",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/008"
+    },
+    {
+     "id": "pt-b-ki-produkt-009",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Product Owner Self-Service",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/009"
+    },
+    {
+     "id": "pt-b-ki-produkt-010",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Software Engineer Backend B2B",
+     "ort": "Zug",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/010"
+    },
+    {
+     "id": "pt-b-ki-produkt-011",
+     "firma": "Kombira Versand AG",
+     "rolle": "Requirements Engineer Plattform-Services",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/011"
+    },
+    {
+     "id": "pt-b-ki-produkt-012",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Data Engineer Plattform-Services",
+     "ort": "Basel",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/012"
+    },
+    {
+     "id": "pt-b-ki-produkt-013",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Product Owner Kundenportal B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/013"
+    },
+    {
+     "id": "pt-b-ki-produkt-neu0",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Product Owner Schadenportal",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/neu0"
+    },
+    {
+     "id": "pt-b-ki-produkt-neu1",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Product Manager KI-Assistent",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-ki-produkt/neu1"
+    }
+   ]
+  },
+  "pt-b-digital-product": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 22,
+   "eintraege": [
+    {
+     "id": "pt-b-digital-product-000",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Junior Product Owner",
+     "ort": "Bern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/000"
+    },
+    {
+     "id": "pt-b-digital-product-001",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Requirements Engineer Plattform-Services",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/001"
+    },
+    {
+     "id": "pt-b-digital-product-002",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-b-digital-product/002"
+    },
+    {
+     "id": "pt-b-digital-product-003",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Data Engineer Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/003"
+    },
+    {
+     "id": "pt-b-digital-product-004",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Senior Product Manager Plattform-Services",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/004"
+    },
+    {
+     "id": "pt-b-digital-product-005",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Product Manager Data Platform Plattform-Services",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-b-digital-product/005"
+    },
+    {
+     "id": "pt-b-digital-product-006",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Business Analyst",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-b-digital-product/006"
+    },
+    {
+     "id": "pt-b-digital-product-007",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Data Engineer Digital Channels",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/007"
+    },
+    {
+     "id": "pt-b-digital-product-008",
+     "firma": "Kalvit Software AG",
+     "rolle": "Product Manager Hardware (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/008"
+    },
+    {
+     "id": "pt-b-digital-product-009",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Product Manager Data Platform B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/009"
+    },
+    {
+     "id": "pt-b-digital-product-010",
+     "firma": "Hovald Bau AG",
+     "rolle": "Praktikum Produktmanagement Daten",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/010"
+    },
+    {
+     "id": "pt-b-digital-product-011",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Scrum Master",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/011"
+    },
+    {
+     "id": "pt-b-digital-product-012",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Product Manager Hardware Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/012"
+    },
+    {
+     "id": "pt-b-digital-product-013",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Scrum Master",
+     "ort": "Kloten",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/013"
+    },
+    {
+     "id": "pt-b-digital-product-014",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Basel",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/014"
+    },
+    {
+     "id": "pt-b-digital-product-015",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Requirements Engineer Plattform-Services",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/015"
+    },
+    {
+     "id": "pt-b-digital-product-016",
+     "firma": "Amberlin Versicherung AG",
+     "rolle": "Product Manager Data Platform",
+     "ort": "Lausanne",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/016"
+    },
+    {
+     "id": "pt-b-digital-product-017",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Junior Product Owner",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/017"
+    },
+    {
+     "id": "pt-b-digital-product-018",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Business Analyst Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/018"
+    },
+    {
+     "id": "pt-b-digital-product-019",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Solution Architect Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/019"
+    },
+    {
+     "id": "pt-b-digital-product-020",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-b-digital-product/020"
+    },
+    {
+     "id": "pt-b-digital-product-021",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Product Manager Data Platform Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-b-digital-product/021"
+    }
+   ]
+  },
+  "pt-c-plattform": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 1,
+   "seiten": 1,
+   "treffer": 19,
+   "eintraege": [
+    {
+     "id": "pt-c-plattform-000",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "UX Designer",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/000"
+    },
+    {
+     "id": "pt-c-plattform-001",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Requirements Engineer Kundenerlebnis",
+     "ort": "Bern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/001"
+    },
+    {
+     "id": "pt-c-plattform-002",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "UX Designer Plattform-Services",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-plattform/002"
+    },
+    {
+     "id": "pt-c-plattform-003",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Product Manager Data Platform B2B",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/003"
+    },
+    {
+     "id": "pt-c-plattform-004",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Scrum Master Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-plattform/004"
+    },
+    {
+     "id": "pt-c-plattform-005",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Product Owner Kundenportal Prozesse",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-plattform/005"
+    },
+    {
+     "id": "pt-c-plattform-006",
+     "firma": "Kombira Versand AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-plattform/006"
+    },
+    {
+     "id": "pt-c-plattform-007",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Business Analyst (80–100 %)",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/007"
+    },
+    {
+     "id": "pt-c-plattform-008",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Product Owner Kundenportal",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/008"
+    },
+    {
+     "id": "pt-c-plattform-009",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Data Engineer",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/009"
+    },
+    {
+     "id": "pt-c-plattform-010",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Software Engineer Backend B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/010"
+    },
+    {
+     "id": "pt-c-plattform-011",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "UX Designer (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/011"
+    },
+    {
+     "id": "pt-c-plattform-012",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-plattform/012"
+    },
+    {
+     "id": "pt-c-plattform-013",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-plattform/013"
+    },
+    {
+     "id": "pt-c-plattform-014",
+     "firma": "Mirvel Medien AG",
+     "rolle": "Senior Product Manager Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-plattform/014"
+    },
+    {
+     "id": "pt-c-plattform-015",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Product Owner Self-Service",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/015"
+    },
+    {
+     "id": "pt-c-plattform-016",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Solution Architect (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-plattform/016"
+    },
+    {
+     "id": "pt-c-plattform-017",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Business Analyst (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-plattform/017"
+    },
+    {
+     "id": "pt-c-plattform-018",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-plattform/018"
+    }
+   ]
+  },
+  "pt-c-produktverantwortung": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 27,
+   "eintraege": [
+    {
+     "id": "pt-c-produktverantwortung-000",
+     "firma": "Hovald Bau AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/000"
+    },
+    {
+     "id": "pt-c-produktverantwortung-001",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Data Engineer",
+     "ort": "Aarau",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/001"
+    },
+    {
+     "id": "pt-c-produktverantwortung-002",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Junior Product Owner Plattform-Services",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/002"
+    },
+    {
+     "id": "pt-c-produktverantwortung-003",
+     "firma": "Mastrova Industrie AG",
+     "rolle": "Senior Product Owner",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/003"
+    },
+    {
+     "id": "pt-c-produktverantwortung-004",
+     "firma": "Fendrix Analytics AG",
+     "rolle": "Senior Product Owner Plattform-Services",
+     "ort": "Baden",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/004"
+    },
+    {
+     "id": "pt-c-produktverantwortung-005",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/005"
+    },
+    {
+     "id": "pt-c-produktverantwortung-006",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Scrum Master Kundenerlebnis",
+     "ort": "Luzern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/006"
+    },
+    {
+     "id": "pt-c-produktverantwortung-007",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Business Analyst",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/007"
+    },
+    {
+     "id": "pt-c-produktverantwortung-008",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Basel",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/008"
+    },
+    {
+     "id": "pt-c-produktverantwortung-009",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Data Engineer",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/009"
+    },
+    {
+     "id": "pt-c-produktverantwortung-010",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Praktikum Produktmanagement (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/010"
+    },
+    {
+     "id": "pt-c-produktverantwortung-011",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Product Owner Kundenportal Daten",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/011"
+    },
+    {
+     "id": "pt-c-produktverantwortung-012",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Senior Product Owner Digital Channels",
+     "ort": "Kloten",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/012"
+    },
+    {
+     "id": "pt-c-produktverantwortung-013",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Scrum Master Prozesse",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/013"
+    },
+    {
+     "id": "pt-c-produktverantwortung-014",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Product Owner Self-Service Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/014"
+    },
+    {
+     "id": "pt-c-produktverantwortung-015",
+     "firma": "Amberlin Versicherung AG",
+     "rolle": "Product Owner Kundenportal Digital Channels",
+     "ort": "Lausanne",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/015"
+    },
+    {
+     "id": "pt-c-produktverantwortung-016",
+     "firma": "Pixavo Agentur GmbH",
+     "rolle": "Senior Product Owner Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/016"
+    },
+    {
+     "id": "pt-c-produktverantwortung-017",
+     "firma": "Kalvit Software AG",
+     "rolle": "Software Engineer Backend Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/017"
+    },
+    {
+     "id": "pt-c-produktverantwortung-018",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/018"
+    },
+    {
+     "id": "pt-c-produktverantwortung-019",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Scrum Master Prozesse",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/019"
+    },
+    {
+     "id": "pt-c-produktverantwortung-020",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Scrum Master",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/020"
+    },
+    {
+     "id": "pt-c-produktverantwortung-021",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Scrum Master",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/021"
+    },
+    {
+     "id": "pt-c-produktverantwortung-022",
+     "firma": "Fendrix Analytics AG",
+     "rolle": "Business Analyst",
+     "ort": "Baden",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/022"
+    },
+    {
+     "id": "pt-c-produktverantwortung-023",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Software Engineer Backend B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/023"
+    },
+    {
+     "id": "pt-c-produktverantwortung-024",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "UX Designer (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/024"
+    },
+    {
+     "id": "pt-c-produktverantwortung-025",
+     "firma": "Mirvel Medien AG",
+     "rolle": "Product Manager Data Platform",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/025"
+    },
+    {
+     "id": "pt-c-produktverantwortung-026",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Solution Architect Kundenerlebnis",
+     "ort": "Bern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-c-produktverantwortung/026"
+    }
+   ]
+  },
+  "pt-d-lead-po": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 1,
+   "seiten": 1,
+   "treffer": 18,
+   "eintraege": [
+    {
+     "id": "pt-d-lead-po-000",
+     "firma": "Hovald Bau AG",
+     "rolle": "UX Designer (80–100 %)",
+     "ort": "Aarau",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-lead-po/000"
+    },
+    {
+     "id": "pt-d-lead-po-001",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Product Owner Self-Service",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/001"
+    },
+    {
+     "id": "pt-d-lead-po-002",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Software Engineer Backend Prozesse",
+     "ort": "Kloten",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-lead-po/002"
+    },
+    {
+     "id": "pt-d-lead-po-003",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Digital Product Lead Prozesse",
+     "ort": "Bern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/003"
+    },
+    {
+     "id": "pt-d-lead-po-004",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Product Manager Hardware B2B",
+     "ort": "Luzern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-lead-po/004"
+    },
+    {
+     "id": "pt-d-lead-po-005",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Product Owner Mobile App",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/005"
+    },
+    {
+     "id": "pt-d-lead-po-006",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Business Analyst",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/006"
+    },
+    {
+     "id": "pt-d-lead-po-007",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Junior Product Owner Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-lead-po/007"
+    },
+    {
+     "id": "pt-d-lead-po-008",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/008"
+    },
+    {
+     "id": "pt-d-lead-po-009",
+     "firma": "Kombira Versand AG",
+     "rolle": "Solution Architect",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/009"
+    },
+    {
+     "id": "pt-d-lead-po-010",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Software Engineer Backend Daten",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-lead-po/010"
+    },
+    {
+     "id": "pt-d-lead-po-011",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Data Engineer B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/011"
+    },
+    {
+     "id": "pt-d-lead-po-012",
+     "firma": "Fendrix Analytics AG",
+     "rolle": "Solution Architect Digital Channels",
+     "ort": "Baden",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-lead-po/012"
+    },
+    {
+     "id": "pt-d-lead-po-013",
+     "firma": "Kombira Versand AG",
+     "rolle": "Business Analyst",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-lead-po/013"
+    },
+    {
+     "id": "pt-d-lead-po-014",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Product Owner Self-Service Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/014"
+    },
+    {
+     "id": "pt-d-lead-po-015",
+     "firma": "Kalvit Software AG",
+     "rolle": "Data Engineer (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-lead-po/015"
+    },
+    {
+     "id": "pt-d-lead-po-016",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-lead-po/016"
+    },
+    {
+     "id": "pt-d-lead-po-017",
+     "firma": "Varella Energie AG",
+     "rolle": "Product Manager Data Platform Plattform-Services",
+     "ort": "Baden",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-lead-po/017"
+    }
+   ]
+  },
+  "pt-d-product-lead": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 1,
+   "seiten": 1,
+   "treffer": 16,
+   "eintraege": [
+    {
+     "id": "pt-d-product-lead-000",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Requirements Engineer Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-product-lead/000"
+    },
+    {
+     "id": "pt-d-product-lead-001",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-product-lead/001"
+    },
+    {
+     "id": "pt-d-product-lead-002",
+     "firma": "Orvana Reisen AG",
+     "rolle": "UX Designer Kundenerlebnis",
+     "ort": "Luzern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-product-lead/002"
+    },
+    {
+     "id": "pt-d-product-lead-003",
+     "firma": "Trellin Immobilien AG",
+     "rolle": "Business Analyst Kundenerlebnis",
+     "ort": "Zug",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-product-lead/003"
+    },
+    {
+     "id": "pt-d-product-lead-004",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Senior Product Manager",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-product-lead/004"
+    },
+    {
+     "id": "pt-d-product-lead-005",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Data Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-product-lead/005"
+    },
+    {
+     "id": "pt-d-product-lead-006",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Projektleiter Digitalisierung Plattform-Services",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-product-lead/006"
+    },
+    {
+     "id": "pt-d-product-lead-007",
+     "firma": "Pelvio Mobility AG",
+     "rolle": "Praktikum Produktmanagement Prozesse",
+     "ort": "Bern",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-product-lead/007"
+    },
+    {
+     "id": "pt-d-product-lead-008",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Requirements Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-product-lead/008"
+    },
+    {
+     "id": "pt-d-product-lead-009",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-product-lead/009"
+    },
+    {
+     "id": "pt-d-product-lead-010",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Projektleiter Digitalisierung (80–100 %)",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-d-product-lead/010"
+    },
+    {
+     "id": "pt-d-product-lead-011",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Projektleiter Digitalisierung Prozesse",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-product-lead/011"
+    },
+    {
+     "id": "pt-d-product-lead-012",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-product-lead/012"
+    },
+    {
+     "id": "pt-d-product-lead-013",
+     "firma": "Varella Energie AG",
+     "rolle": "Projektleiter Digitalisierung B2B",
+     "ort": "Baden",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-d-product-lead/013"
+    },
+    {
+     "id": "pt-d-product-lead-014",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Data Engineer Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-product-lead/014"
+    },
+    {
+     "id": "pt-d-product-lead-015",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Solution Architect",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-d-product-lead/015"
+    }
+   ]
+  },
+  "pt-e-data-product": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 25,
+   "eintraege": [
+    {
+     "id": "pt-e-data-product-000",
+     "firma": "Kombira Versand AG",
+     "rolle": "Data Engineer",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/000"
+    },
+    {
+     "id": "pt-e-data-product-001",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Praktikum Produktmanagement",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/001"
+    },
+    {
+     "id": "pt-e-data-product-002",
+     "firma": "Tuskora Lebensmittel AG",
+     "rolle": "Solution Architect",
+     "ort": "Luzern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-data-product/002"
+    },
+    {
+     "id": "pt-e-data-product-003",
+     "firma": "Amberlin Versicherung AG",
+     "rolle": "UX Designer B2B",
+     "ort": "Lausanne",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-data-product/003"
+    },
+    {
+     "id": "pt-e-data-product-004",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Praktikum Produktmanagement",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/004"
+    },
+    {
+     "id": "pt-e-data-product-005",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Product Manager Hardware (80–100 %)",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-data-product/005"
+    },
+    {
+     "id": "pt-e-data-product-006",
+     "firma": "Fendrix Analytics AG",
+     "rolle": "Praktikum Produktmanagement Daten",
+     "ort": "Baden",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/006"
+    },
+    {
+     "id": "pt-e-data-product-007",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Praktikum Produktmanagement B2B",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/007"
+    },
+    {
+     "id": "pt-e-data-product-008",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Business Analyst",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-data-product/008"
+    },
+    {
+     "id": "pt-e-data-product-009",
+     "firma": "Kalvit Software AG",
+     "rolle": "Business Analyst (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/009"
+    },
+    {
+     "id": "pt-e-data-product-010",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Software Engineer Backend Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/010"
+    },
+    {
+     "id": "pt-e-data-product-011",
+     "firma": "Kalvit Software AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/011"
+    },
+    {
+     "id": "pt-e-data-product-012",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Product Manager Data Platform",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/012"
+    },
+    {
+     "id": "pt-e-data-product-013",
+     "firma": "Telvaro Kommunikation AG",
+     "rolle": "Senior Product Manager B2B",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/013"
+    },
+    {
+     "id": "pt-e-data-product-014",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Software Engineer Backend Daten",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-data-product/014"
+    },
+    {
+     "id": "pt-e-data-product-015",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Solution Architect Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/015"
+    },
+    {
+     "id": "pt-e-data-product-016",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Basel",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-data-product/016"
+    },
+    {
+     "id": "pt-e-data-product-017",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Praktikum Produktmanagement Prozesse",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/017"
+    },
+    {
+     "id": "pt-e-data-product-018",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/018"
+    },
+    {
+     "id": "pt-e-data-product-019",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zug",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-data-product/019"
+    },
+    {
+     "id": "pt-e-data-product-020",
+     "firma": "Veltrima Gesundheitsdienste AG",
+     "rolle": "Data Engineer B2B",
+     "ort": "St. Gallen",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-data-product/020"
+    },
+    {
+     "id": "pt-e-data-product-021",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Software Engineer Backend Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/021"
+    },
+    {
+     "id": "pt-e-data-product-022",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Senior Product Owner",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/022"
+    },
+    {
+     "id": "pt-e-data-product-023",
+     "firma": "Pixavo Agentur GmbH",
+     "rolle": "Solution Architect",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/023"
+    },
+    {
+     "id": "pt-e-data-product-024",
+     "firma": "Kombira Versand AG",
+     "rolle": "Data Engineer",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-data-product/024"
+    }
+   ]
+  },
+  "pt-e-ai-product-manager": {
+   "status": "ok",
+   "kanal": "portal",
+   "zeit": "2025-04-26T07:45:12",
+   "fenster_s": 86400,
+   "abrufe": 2,
+   "seiten": 2,
+   "treffer": 28,
+   "eintraege": [
+    {
+     "id": "pt-e-ai-product-manager-000",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Projektleiter Digitalisierung Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/000"
+    },
+    {
+     "id": "pt-e-ai-product-manager-001",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Data Engineer Kundenerlebnis",
+     "ort": "Luzern",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/001"
+    },
+    {
+     "id": "pt-e-ai-product-manager-002",
+     "firma": "Amberlin Versicherung AG",
+     "rolle": "Praktikum Produktmanagement",
+     "ort": "Lausanne",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/002"
+    },
+    {
+     "id": "pt-e-ai-product-manager-003",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Praktikum Produktmanagement Daten",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/003"
+    },
+    {
+     "id": "pt-e-ai-product-manager-004",
+     "firma": "Quelvia Pharma AG",
+     "rolle": "Junior Product Owner Kundenerlebnis",
+     "ort": "Basel",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/004"
+    },
+    {
+     "id": "pt-e-ai-product-manager-005",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "UX Designer (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/005"
+    },
+    {
+     "id": "pt-e-ai-product-manager-006",
+     "firma": "Kandora Consulting AG",
+     "rolle": "UX Designer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/006"
+    },
+    {
+     "id": "pt-e-ai-product-manager-007",
+     "firma": "Lernovi Bildung AG",
+     "rolle": "Business Analyst (80–100 %)",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/007"
+    },
+    {
+     "id": "pt-e-ai-product-manager-008",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Scrum Master",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/008"
+    },
+    {
+     "id": "pt-e-ai-product-manager-009",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Senior Product Owner Digital Channels",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/009"
+    },
+    {
+     "id": "pt-e-ai-product-manager-010",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Product Manager Hardware (80–100 %)",
+     "ort": "Kloten",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/010"
+    },
+    {
+     "id": "pt-e-ai-product-manager-011",
+     "firma": "Quendor Versicherungen AG",
+     "rolle": "Scrum Master",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/011"
+    },
+    {
+     "id": "pt-e-ai-product-manager-012",
+     "firma": "Kandora Consulting AG",
+     "rolle": "Product Owner Kundenportal Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/012"
+    },
+    {
+     "id": "pt-e-ai-product-manager-013",
+     "firma": "Jobvera Staffing AG",
+     "rolle": "UX Designer",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/013"
+    },
+    {
+     "id": "pt-e-ai-product-manager-014",
+     "firma": "Talentbrücke Personal AG",
+     "rolle": "Business Analyst Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/014"
+    },
+    {
+     "id": "pt-e-ai-product-manager-015",
+     "firma": "Cirrova Cloud AG",
+     "rolle": "Lead Product Owner Plattform (80–100 %)",
+     "ort": "Schlieren",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/015"
+    },
+    {
+     "id": "pt-e-ai-product-manager-016",
+     "firma": "Hovald Bau AG",
+     "rolle": "Junior Product Owner Digital Channels",
+     "ort": "Aarau",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/016"
+    },
+    {
+     "id": "pt-e-ai-product-manager-017",
+     "firma": "Varella Energie AG",
+     "rolle": "Projektleiter Digitalisierung",
+     "ort": "Baden",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/017"
+    },
+    {
+     "id": "pt-e-ai-product-manager-018",
+     "firma": "Sanuvia Health AG",
+     "rolle": "Business Analyst B2B",
+     "ort": "Winterthur",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/018"
+    },
+    {
+     "id": "pt-e-ai-product-manager-019",
+     "firma": "Ristra Finanztechnik AG",
+     "rolle": "Software Engineer Backend",
+     "ort": "Zug",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/019"
+    },
+    {
+     "id": "pt-e-ai-product-manager-020",
+     "firma": "Orvana Reisen AG",
+     "rolle": "Solution Architect",
+     "ort": "Luzern",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/020"
+    },
+    {
+     "id": "pt-e-ai-product-manager-021",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Projektleiter Digitalisierung Prozesse",
+     "ort": "Zürich",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/021"
+    },
+    {
+     "id": "pt-e-ai-product-manager-022",
+     "firma": "Sorvik Logistik AG",
+     "rolle": "Product Manager Data Platform B2B",
+     "ort": "Kloten",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/022"
+    },
+    {
+     "id": "pt-e-ai-product-manager-023",
+     "firma": "Kombira Versand AG",
+     "rolle": "Solution Architect",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-25",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/023"
+    },
+    {
+     "id": "pt-e-ai-product-manager-024",
+     "firma": "Spielora Gaming AG",
+     "rolle": "Scrum Master Kundenerlebnis",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/024"
+    },
+    {
+     "id": "pt-e-ai-product-manager-025",
+     "firma": "Kombira Versand AG",
+     "rolle": "Product Owner Mobile App",
+     "ort": "Dübendorf",
+     "publiziert": "2025-04-26",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/025"
+    },
+    {
+     "id": "pt-e-ai-product-manager-026",
+     "firma": "Vendaro Retail AG",
+     "rolle": "Software Engineer Backend Digital Channels",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/026"
+    },
+    {
+     "id": "pt-e-ai-product-manager-027",
+     "firma": "Brivana Privatbank AG",
+     "rolle": "Data Engineer",
+     "ort": "Zürich",
+     "publiziert": "2025-04-24",
+     "url": "https://jobs.example.org/pt-e-ai-product-manager/027"
+    }
+   ]
+  }
+ },
+ "dauer_s": 41,
+ "fehler": 0
+}

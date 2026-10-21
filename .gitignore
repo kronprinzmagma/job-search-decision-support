@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+data/.pipeline.lock
+data/.screening_log.lock
+data/.screening_sweep
+.pytest_cache/
+# Stage-Verzeichnis des Syncs und lokale Arbeitsnotizen bleiben privat
+.stage/
