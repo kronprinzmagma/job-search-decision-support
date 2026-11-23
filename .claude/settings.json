@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(/data/pipeline.json)",
+      "Edit(/data/screening_log.json)",
+      "Edit(/views/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/jobcoach.py\" --pruefen",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

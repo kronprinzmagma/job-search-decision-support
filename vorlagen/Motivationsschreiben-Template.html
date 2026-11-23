@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motivationsschreiben</title>
+<!--
+  Briefvorlage der Demo-Persona (alle Angaben erfunden).
+
+  Gebrauch:
+  - Automatisch: scripts/anschreiben_pdf.py ersetzt den Inhalt von #defaultMd durch die Quell-MD,
+    setzt KEY brief-spezifisch und druckt die Seite mit Chromium headless (A4, ohne Kopf-/Fusszeile).
+  - Von Hand: Datei im Browser öffnen, «Bearbeiten», Text einfügen, «Drucken» (Ränder: Keine,
+    Hintergrundgrafiken: An). Der bearbeitete Text bleibt unter KEY im localStorage des Browsers.
+
+  Markdown, das die Vorlage versteht (kleiner eingebetteter Renderer, keine externen Abhängigkeiten):
+    # Titel                 -> Betreff (falls kein **Betreff:**)
+    **Empfänger:** A · B    -> Empfängerblock, « · » trennt die Zeilen
+    **Ort/Datum:** …        -> rechtsbündig über dem Betreff
+    **Betreff:** …          -> Betreff
+    **Gruss:** …            -> Grussformel, darunter der Name aus dem Absenderblock
+    **Beilagen:** …         -> kleingedruckt am Schluss
+    **Grundlage:** …        -> wird NIE gedruckt (interner Nachweis für scripts/check_anschreiben.py)
+    Leerzeile trennt Absätze, «- » ergibt Aufzählungen, **fett**, *kursiv*, «---» wird übersprungen.
+
+  Schrift und Farben sind fest: scripts/check_anschreiben_format.py liest die Farben aus :root und
+  erwartet im PDF nur die Schriftfamilie Arial bzw. Liberation Sans (metrisch gleich, frei verfügbar).
+  Änderungen an dieser Datei brechen die Prüfsumme (Motivationsschreiben-Template.sha256).
+-->
+<style>
+  :root {
+    --text: #1a1a1a;
+    --akzent: #2f4f6f;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: #e6e6e6;
+    color: var(--text);
+    font-family: Arial, "Liberation Sans", sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .blatt {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 12mm auto;
+    padding: 20mm 22mm 18mm 25mm;
+    background: #ffffff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+  }
+  .absender { border-bottom: 0.6pt solid var(--akzent); padding-bottom: 3mm; margin-bottom: 14mm; }
+  .absender .name { font-size: 16pt; font-weight: bold; color: var(--akzent); letter-spacing: 0.02em; }
+  .absender .kontakt { font-size: 9pt; margin-top: 1mm; }
+  .empfaenger { min-height: 22mm; margin-bottom: 8mm; }
+  .ort { text-align: right; margin-bottom: 8mm; }
+  .betreff { font-weight: bold; margin-bottom: 6mm; }
+  .text p { margin: 0 0 3.2mm 0; }
+  .text ul { margin: 0 0 3.2mm 0; padding-left: 5mm; }
+  .gruss { margin-top: 6mm; }
+  .gruss .unterschrift { margin-top: 12mm; }
+  .beilagen { margin-top: 8mm; font-size: 9pt; }
+  .leer { display: none; }
+  .werkzeug { position: fixed; top: 8px; right: 8px; font: 13px sans-serif; }
+  .werkzeug button { margin-left: 4px; }
+  #editor { display: none; position: fixed; top: 40px; right: 8px; width: 42vw; height: 80vh; font: 12px monospace; }
+  @media print {
+    body { background: #ffffff; }
+    .blatt { margin: 0; box-shadow: none; }
+    .werkzeug, #editor { display: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="werkzeug">
+  <button type="button" id="bearbeiten">Bearbeiten</button>
+  <button type="button" id="zuruecksetzen">Zurücksetzen</button>
+  <button type="button" onclick="window.print()">Drucken</button>
+</div>
+<textarea id="editor" spellcheck="false"></textarea>
+
+<div class="blatt">
+  <header class="absender">
+    <div class="name" id="name">Alex Müller</div>
+    <div class="kontakt">Musterstrasse 1 · 8000 Zürich · +41 79 000 00 00 · alex.mueller@example.com</div>
+  </header>
+  <div class="empfaenger" id="empfaenger"></div>
+  <div class="ort" id="ort"></div>
+  <div class="betreff" id="betreff"></div>
+  <div class="text" id="text"></div>
+  <div class="gruss" id="gruss"></div>
+  <div class="beilagen" id="beilagen"></div>
+</div>
+
+<script type="text/markdown" id="defaultMd">
+# Bewerbung als Senior Product Owner
+
+**Empfänger:** Beispiel AG · Personalabteilung · Beispielweg 2 · 8000 Zürich
+**Ort/Datum:** Zürich, 1. April 2025
+
+Sehr geehrte Damen und Herren
+
+Hier steht der Brieftext. scripts/anschreiben_pdf.py ersetzt diesen Block durch die Quell-MD.
+
+**Gruss:** Freundliche Grüsse
+**Beilagen:** Lebenslauf, Zeugnisse
+</script>
+
+<script>
+(function () {
+  var KEY = "cover:vorlage";
+  var FELDER = ["empfänger", "ort/datum", "betreff", "gruss", "beilagen", "grundlage"];
+
+  function esc(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function inline(s) {
+    return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+  }
+  function setzen(id, html) {
+    var el = document.getElementById(id);
+    el.innerHTML = html || "";
+    el.className = el.className.replace(/\s*leer/g, "") + (html ? "" : " leer");
+  }
+
+  function rendern(md) {
+    var felder = {}, bloecke = [], titel = "", absatz = [], liste = null;
+    function abschliessen() {
+      if (absatz.length) { bloecke.push("<p>" + absatz.map(inline).join("<br>") + "</p>"); absatz = []; }
+      if (liste) {
+        bloecke.push("<ul>" + liste.map(function (l) { return "<li>" + inline(l) + "</li>"; }).join("") + "</ul>");
+        liste = null;
+      }
+    }
+    md.replace(/\r/g, "").split("\n").forEach(function (zeile) {
+      var t = zeile.trim(), m;
+      if (!t || t === "---") { abschliessen(); return; }
+      m = t.match(/^\*\*([^*]+?):\*\*\s*(.*)$/);
+      if (m && FELDER.indexOf(m[1].toLowerCase()) >= 0) { abschliessen(); felder[m[1].toLowerCase()] = m[2]; return; }
+      m = t.match(/^#\s+(.*)$/);
+      if (m) { abschliessen(); titel = m[1]; return; }
+      m = t.match(/^#{2,}\s+(.*)$/);
+      if (m) { abschliessen(); bloecke.push("<p><strong>" + inline(m[1]) + "</strong></p>"); return; }
+      m = t.match(/^[-*]\s+(.*)$/);
+      if (m) { if (absatz.length) abschliessen(); liste = liste || []; liste.push(m[1]); return; }
+      if (liste) abschliessen();
+      absatz.push(t);
+    });
+    abschliessen();
+
+    var empf = felder["empfänger"] ? felder["empfänger"].split(/\s+·\s+/).map(inline).join("<br>") : "";
+    setzen("empfaenger", empf);
+    setzen("ort", felder["ort/datum"] ? inline(felder["ort/datum"]) : "");
+    setzen("betreff", inline(felder["betreff"] || titel));
+    setzen("text", bloecke.join("\n"));
+    var name = document.getElementById("name").textContent;
+    setzen("gruss", felder["gruss"] ? inline(felder["gruss"]) + '<div class="unterschrift">' + esc(name) + "</div>" : "");
+    setzen("beilagen", felder["beilagen"] ? "Beilagen: " + inline(felder["beilagen"]) : "");
+  }
+
+  function lesen() {
+    try { var v = window.localStorage.getItem(KEY); if (v) return v; } catch (e) {}
+    return document.getElementById("defaultMd").textContent;
+  }
+  function speichern(v) {
+    try { window.localStorage.setItem(KEY, v); } catch (e) {}
+  }
+
+  var editor = document.getElementById("editor");
+  document.getElementById("bearbeiten").onclick = function () {
+    var offen = editor.style.display === "block";
+    editor.style.display = offen ? "none" : "block";
+    if (!offen) editor.value = lesen();
+  };
+  document.getElementById("zuruecksetzen").onclick = function () {
+    try { window.localStorage.removeItem(KEY); } catch (e) {}
+    editor.value = lesen();
+    rendern(editor.value);
+  };
+  editor.oninput = function () { speichern(editor.value); rendern(editor.value); };
+
+  rendern(lesen());
+})();
+</script>
+</body>
+</html>

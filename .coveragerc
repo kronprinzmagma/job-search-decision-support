@@ -1,0 +1,12 @@
+# Abdeckung (Katalog C4). Die Tests rufen die Skripte als Unterprozess in einer Temp-Kopie auf
+# (tests/conftest.py); patch = subprocess misst diese Prozesse mit, [paths] fuehrt die Kopien
+# auf scripts/ zurueck.
+[run]
+patch = subprocess
+# Kein source=: die Kopien liegen ausserhalb des Repos; include faengt sie und scripts/ ein.
+include = */scripts/*.py
+
+[paths]
+source =
+    scripts/
+    */scripts/
